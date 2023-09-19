@@ -8,7 +8,7 @@ function firstNonRepeatedChar(str) {
 		}
 	}
 	for (let i = 0; i < str.length; i++) {
-		if(obj[str[i]==1]){
+		if(obj[str[i]]==1]){
 			return str[i];
 		}
 	}
